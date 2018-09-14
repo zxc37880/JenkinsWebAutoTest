@@ -16,6 +16,7 @@ namespace JenkinsWebAutoTest.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            string test = "只是測試能不能利用git push就能成功偵測編譯";
 
             return View();
         }
