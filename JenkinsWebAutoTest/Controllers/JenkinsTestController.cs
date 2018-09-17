@@ -13,5 +13,11 @@ namespace JenkinsWebAutoTest.Controllers
         {
             return View();
         }
+
+        public ActionResult TextTry0917()
+        {
+            return View();
+        }
+
     }
 }
